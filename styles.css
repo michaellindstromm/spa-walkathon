@@ -1,0 +1,6 @@
+.container {
+  display: block;
+  float: left;
+  width: 45%;
+  margin-top: 1em;
+}
