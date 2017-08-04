@@ -1,5 +1,9 @@
 {
   var Donors = {
+
+    //********************************************************
+    //********* Add and get donor array of objects ***********
+
     getDonors() {
       return donors
     },
@@ -7,9 +11,13 @@
       donors.push(userObj)
     }
   };
+
+  //************************************************************
+  //********* Initial donor array of objects *******************
+
   let donors = [
-    {name: "John Doe", pledge: 90},
-    {name: "Jane Doe", pledge: 80},
-    {name: "Sarah Bea", pledge: 100}
+    {name: "John Doe", email:"john@example.com", pledge: 90, pledgeType: "Lump Sum"},
+    {name: "Jane Doe", email:"jane@example.com", pledge: 8, pledgeType: "Per Lap"},
+    {name: "Susan Jessica", email:"bea@example.com", pledge: 100, pledgeType: "Lump Sum"}
   ]
 }
